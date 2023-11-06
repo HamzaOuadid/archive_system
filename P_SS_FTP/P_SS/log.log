@@ -1,0 +1,10 @@
+INFO:2023-11-06 16:34:49,305: Retrieved information successfully from configuration file
+INFO:2023-11-06 16:34:49,306: Retrieved information successfully from configuration file
+INFO:2023-11-06 16:34:49,306:Trying to connect...
+INFO:2023-11-06 16:34:49,494:Connection successful
+INFO:2023-11-06 16:34:49,496:EXTRACTION SUCCESSFUL: filename : test100.sql
+INFO:2023-11-06 16:34:49,496:ARCHIVING FILE
+INFO:2023-11-06 16:34:49,496:ARCHIVING FILE
+INFO:2023-11-06 16:34:49,496:The archive name20230611
+INFO:2023-11-06 16:34:49,500:Hashes match. Skipping archiving.
+INFO:2023-11-06 16:34:49,500:ARCHIVE SUCCESSFUL

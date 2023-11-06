@@ -1,0 +1,24 @@
+---
+#Link of zip file to be archived 
+LINK: https://leafy-kringle-a61e00.netlify.app/sql-sample.zip
+
+#After this duration the archive will be deleted, insert an int 
+DURATION: 1
+
+# Information about smtp server
+SMTP_PORT: 465 # smtp port
+SMTP_SERVER: "smtp.gmail.com" # server smtp
+SMTP_PASSWORD: "emsd bqio pkau yefn" # user password
+SMTP_MAIL_SENDER: "ensiasteam@gmail.com" # mail sender
+# List of all the emails that will receive the mail.
+SMTP_MAIL_RECEIVERS:
+  - "hamzaouadid@gmail.com"
+  - "ezermathst81321@gmail.com"
+  
+
+
+#You can specify duration date type: minutes, hours, days, weeks
+DURATIONTYPE: days
+
+#Specify whether or not to notify mattermost. Accepted values are true, false 
+NOTIFY: 1

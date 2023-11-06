@@ -1,0 +1,16 @@
+2023-11-06 19:48:13 - INFO - Configuration values were imported correctly.
+2023-11-06 19:48:13 - INFO - ----STARTING THE SCRIPT-----
+2023-11-06 19:48:13 - INFO - Cleaning old archives:
+2023-11-06 19:48:13 - WARNING - Skipping file '' - invalid date format
+2023-11-06 19:48:13 - INFO - Old archives exceeding 7 days have been checked and deleted successfully. The process begins.
+2023-11-06 19:48:13 - INFO - Extracting the latest archive:
+2023-11-06 19:48:13 - INFO - Latest file '20230611.tgz' found on the WebDAV server.
+2023-11-06 19:48:13 - INFO - Latest file '20230611.tgz' downloaded successfully to temp/20230611.tgz
+2023-11-06 19:48:13 - INFO - Archive extracted to the local directory 'temp/extracted_last_archive'
+2023-11-06 19:48:13 - INFO - The .zip file was successfully downloaded from https://leafy-kringle-a61e00.netlify.app/sql-sample.Zip and saved to temp/sql.zip
+2023-11-06 19:48:13 - INFO - The .zip file has been successfully extracted to temp/extractedSQLFolder
+2023-11-06 19:48:13 - INFO - Comparing files: temp/extractedSQLFolder/test100.sql and temp/extracted_last_archive/test100.sql
+2023-11-06 19:48:13 - INFO - Both files are compatible. No archiving is performed.
+2023-11-06 19:48:13 - INFO - ----ENDING THE SCRIPT-----
+2023-11-06 19:48:14 - INFO - Logged in to your email successfully.
+2023-11-06 19:48:15 - INFO - Email sent to lesvideodezack@gmail.com successfully.

@@ -1,0 +1,15 @@
+{
+  "url_zip": "https://leafy-kringle-a61e00.netlify.app/sql-sample.Zip",
+  "absolute_path": "./temp",
+  "sql_file_name": "test100.sql",
+  "url_webdav": "http://127.0.1.1/",
+  "nom_utilisateur": "ubuntu",
+  "mot_de_passe": "testeur123",
+  "retention_period": 7,
+  "recipients": ["lesvideodezack@gmail.com"],
+  "SMTP_PORT": 465,
+  "SMTP_SERVER": "smtp.gmail.com",
+  "SMTP_PASSWORD": "emsd bqio pkau yefn",
+  "SMTP_MAIL_SENDER": "ensiasteam@gmail.com"
+}
+

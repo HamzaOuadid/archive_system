@@ -1,0 +1,14 @@
+<VirtualHost 127.0.1.1:80>
+    DocumentRoot /var/www/html/webdav
+
+    <Directory /var/www/html/webdav>
+        DAV On
+        Options Indexes
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+        Require all granted
+        DavDepthInfinity on
+    </Directory>
+</VirtualHost>
+
