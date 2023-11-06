@@ -1,12 +1,21 @@
-!! ATTENTION PLEASE !!
+# Archiving Automatised System
+
+## Usage Instructions
+
+### Attention:
 
 -FOR A GOOD USAGE OF OUR ARCHIVING AUTOMATISED SYSTEM
+
 -PLEASE RUN THE "userDocConfig.sh" TO IMPORT ALL THE NECESSARY UTILITIES AND DEPENDENCIES FIRST
 -THEN RUN YOUR "userDoc.sh" TO START THE PROJECT
 -IF YOU WANNA CONFIGURE MAIL RECEIVERS, OR ARCHIVE RETENTION PERIOD, FEEL FREE TO MODIFY IT ON "./config/config.json". (!!DON'T MODIFY ANY OTHER INFORMATIONS!!)
 
+### Configuration:
 
-FEEL FREE TO ASK OR REPORT ANY BUG OR PROBLEM BY CONTACTING US IN OUR MAIL : ensiasteam@gmail.com
+If you wish to customize mail receivers or adjust archive retention period, feel free to modify the settings in `./config/config.json`. Please refrain from modifying any other information.
 
+## Contact Us
 
-ENSIAS TEAM
+For any inquiries, bug reports, or problems, please don't hesitate to contact us at [ensiasteam@gmail.com](mailto:ensiasteam@gmail.com).
+
+**- ENSIAS Team**
