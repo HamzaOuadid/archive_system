@@ -4,38 +4,6 @@ import os
 import shutil
 
 
-'''
-def diffrent_hashes(file1_path, file2_path, sql_file_name):
-    archive = False
-    # Extract files from the first tgz file
-    with tarfile.open(file1_path, "r:gz") as tar1:
-        tar1.extractall()
-    
-    # Extract files from the second tgz file
-    with tarfile.open(file2_path, "r:gz") as tar2:
-        tar2.extractall()
-
-    # Calculate the hash of the SQL file in the first extracted directory
-    with open(f"{tar1.getnames()[0]}/{sql_file_name}", "rb") as sql_file1:
-        hash1 = hashlib.sha256(sql_file1.read()).hexdigest()
-
-    # Calculate the hash of the SQL file in the second extracted directory
-    with open(f"{tar2.getnames()[0]}/{sql_file_name}", "rb") as sql_file2:
-        hash2 = hashlib.sha256(sql_file2.read()).hexdigest()
-
-    # Clean up extracted files
-    # NOTE: Make sure you're in a safe environment before using this!
-    import shutil
-    shutil.rmtree(tar1.getnames()[0])
-    shutil.rmtree(tar2.getnames()[0])
-    if hash1 == hash2:
-        archive = False
-    else:
-        archive = True
-
-    return archive'''
-
-
 def diffrent_hashes(file1_path, file2_path, sql_file_name):
     archive = False
 
